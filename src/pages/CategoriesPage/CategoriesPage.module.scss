@@ -27,6 +27,7 @@
     flex-direction: column;
     gap: 0;
     padding: 2em 5em;
+    max-width: 100%;
   }
   .emptyContainer {
     padding: 2em 5em;
@@ -35,7 +36,8 @@
 
 @media screen and (max-width: 583px) {
   .mainSection {
-    padding: 2em 2em;
+    padding: 2em 1em;
+    max-width: 80%;
   }
   .emptyContainer {
     padding: 2em 2em;
@@ -44,12 +46,13 @@
 
 @media screen and (max-width: 380px) {
   .mainSection {
-    padding: 2em 1em;
+    padding: 2em 5px;
+    max-width: 300px;
   }
 }
 
 @media screen and (max-width: 340px) {
-  .mainSection {
+  .mainSection { 
     padding: 2em 5px;
     max-width: 300px;
   }
